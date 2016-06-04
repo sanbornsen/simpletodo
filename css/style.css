@@ -1,0 +1,54 @@
+
+body {
+    font-size: 1em;
+    line-height: 1.3;
+    font-family: Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.task-group-list-item {
+	width: calc(100% - 40px);
+	max-width: 600px;
+	font-size: 15px;
+}
+
+.task-group-list-container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.task-details-title {
+	font-size: 18px;
+}
+
+.task-group-title-input {
+	font-size: 15px;
+}
+
+.task-item-input {
+	font-size: 15px;
+}
+
+.task-list-container {
+	font-size: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    .task-group-list-item {
+		font-size: 13px;
+	}
+
+	.task-group-title-input {
+		font-size: 13px;
+	}
+
+	.task-item-input {
+		font-size: 12px;
+	}
+
+	.task-list-container {
+		font-size: 12px;
+	}
+}
